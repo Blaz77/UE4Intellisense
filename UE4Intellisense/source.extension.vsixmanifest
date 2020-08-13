@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="UE4Intellisense.RxCompiLe.78e5e8d1-7a13-4834-af33-776107712a0c" Version="2.0" Language="en-US" Publisher="RxCompiLe" />
-    <DisplayName>UE4 Intellisense</DisplayName>
-    <Description xml:space="preserve">Extends Intellisense. Adds Unreal Engine 4 specifiers for macros: UCLASS, UPROPERTY, UFUNCTION, USTRUCT and UINTERFACE</Description>
-    <License>LICENSE.md</License>
-    <PreviewImage>resources\screen2.png</PreviewImage>
-    <Tags>Unreal Engine 4 UE4 UCLASS UPROPERTY UFUNCTION USTRUCT UINTERFACE</Tags>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Version="[15.0,16.0)" Id="Microsoft.VisualStudio.Enterprise" />
-    <InstallationTarget Version="[15.0,16.0)" Id="Microsoft.VisualStudio.Community" />
-  </Installation>
-  <Dependencies>
-    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.6,)" />
-  </Dependencies>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
-  </Assets>
-  <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0.26208.0,16.0)" DisplayName="Visual Studio core editor" />
-  </Prerequisites>
+    <Metadata>
+        <Identity Id="UE4Intellisense.RxCompiLe.78e5e8d1-7a13-4834-af33-776107712a0c" Version="2.1" Language="en-US" Publisher="RxCompiLe" />
+        <DisplayName>UE4 Intellisense</DisplayName>
+        <Description xml:space="preserve">Extends Intellisense. Adds Unreal Engine 4 specifiers for macros: UCLASS, UPROPERTY, UFUNCTION, USTRUCT and UINTERFACE</Description>
+        <License>LICENSE.md</License>
+        <PreviewImage>resources\screen2.png</PreviewImage>
+        <Tags>Unreal Engine 4 UE4 UCLASS UPROPERTY UFUNCTION USTRUCT UINTERFACE</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Version="[15.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
+        <InstallationTarget Version="[15.0,17.0)" Id="Microsoft.VisualStudio.Community" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.6,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
 </PackageManifest>
